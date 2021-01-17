@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "endpoint": "/api/basket/1",
+      "destination": {
+        "path": "http://localhost: 5001  /",
+        "requiresAuthentication": "true"
+      }
+    },
+    {
+      "endpoint": "/api/basket/1",
+      "destination": {
+        "path": "http://localhost:/ 5001 ",
+        "requiresAuthentication": "false"
+      }
+    }
+  ],
+  "authenticationService": {
+    "path": "http://localhost:  /api/auth/"
+  }
+}
